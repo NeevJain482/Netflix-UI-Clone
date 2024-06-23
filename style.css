@@ -203,7 +203,7 @@ video {
 
 .section2-card {
   position: absolute;
-  top: 70%;
+  bottom: 8%;
   left: 50%;
   display: flex;
   flex-direction: row;

@@ -133,9 +133,16 @@
       font-size: 18px;
       width: 160px;
     }
+
+    /* Section 2 */
   
     .section2 {
       padding: 7vw 5vw 0 5vw;
+    }
+
+    .section2-card{
+      padding-top: 5px;
+      padding-bottom: 5px;
     }
   
     .section2-card-image{
@@ -149,6 +156,11 @@
       font-size: 12px;
     }
   
-  
+    /* Section 4 */
+    
+    .section4 {
+      padding: 10vw 5vw;
+    }
+
   }
   
