@@ -176,10 +176,13 @@ video {
   width: 100%;
   height: 100%;
 }
-/*  */
+
+/* Section 2 */
+
+
 
 .section2 {
-  padding: 0 10vw;
+  padding: 0vh 10vw 10vh 10vw;
 }
 
 .section2 > div {
@@ -258,88 +261,50 @@ video {
   font-family: Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 959px) {
-  .head {
-    height: 500px;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .top-layout {
-    margin-bottom: 130px;
-  }
-  .logo {
-    height: 24px;
-    width: 90px;
-  }
-  .a {
-    font-size: 32px;
-  }
-  .b,
-  .c {
-    font-size: 18px;
-  }
-  .section2 > div {
-    flex-direction: column-reverse;
-  }
-  .section2-part1{
-    width: 100%;
-  }
-  .section2-card-text{
-    width: 80%;
-  }
-  .section2-card-image{
-    height: 64px;
-  }
-  .section2-part2 {
-    width: 100%;
-  }
-  .section2-part2-p1 {
-    font-size: 32px;
-    text-align: center;
-  }
-  .section2-part2-p2 {
-    font-size: 18px;
-    font-weight: 500;
-    text-align: center;
-  }
+/* Section 3 */
+
+.section3{
+    padding: 10vh;
 }
 
-@media screen and (max-width: 900px) {
-  /* Section 1 */
-  .section1 > div {
-    flex-direction: column;
-  }
-  .section1-p1 {
-    font-size: 32px;
-    text-align: center;
-  }
-  .section1-p2 {
-    text-align: center;
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 599px) {
-  .head {
-    background: url(image/backgroung.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 480px;
-  }
-  .top-layout {
-    margin-bottom: 50px;
-  }
-  .input-btn {
-    flex-direction: column;
+.section3>div{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
     justify-content: center;
-    min-height: 18vh;
-  }
-  .input-email {
-    width: 90vw;
-    margin-bottom: 1rem;
-  }
-  .btn-started {
-    font-size: 18px;
-    width: 160px;
-  }
+}
+
+.section3-part1{
+    width: 50%;
+}
+
+.section3-part1-text1{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Helvetica, sans-serif;
+    padding: 5px;
+}
+.section3-part1-text2{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Helvetica, sans-serif;
+}
+
+.section3-part2{
+    position: relative;
+    width: 50%;
+}
+
+.section3-image{
+    width: 100%;
+}
+
+.section3-video{
+    position: absolute;
+    top: 10%;
+    left: 49%;
+    width: 62%;
+    z-index: -1;
+    transform: translate(-50%);
 }
