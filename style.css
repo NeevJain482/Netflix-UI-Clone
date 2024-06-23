@@ -178,8 +178,79 @@ video{
 /*  */
 
 .section2{
-    height: 530px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
 }
+
+.section2-part1{
+    position: relative;
+    width: 50%;
+}
+
+.section2-image{
+    width: 100%;
+}
+
+.section2-card{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    padding: 10px;
+    transform: translate(-50%, 0%);
+    width: 60%;
+}
+
+.section2-card-image{
+    height: 72px;
+    margin-right: 10px;
+}
+
+.section2-card-text{
+    width: 60%;
+}
+
+.section2-card-text1{
+    font-size: 16px;
+}
+.section2-card-text2{
+    font-size: 14px;
+    color: rgb(16, 103, 255);
+}
+
+.section2-gif{
+    width: 3rem;
+    height: 3rem;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    background-size: 100%;
+}
+
+.section2-part2-p1{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Helvetica, sans-serif;
+}
+
+.section2-part2{
+    width: 50%;
+}
+
+.section2-part2-p2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+
 
 
 @media screen and (max-width:959px){
