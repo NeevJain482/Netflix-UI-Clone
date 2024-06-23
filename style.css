@@ -179,8 +179,6 @@ video {
 
 /* Section 2 */
 
-
-
 .section2 {
   padding: 0vh 10vw 10vh 10vw;
 }
@@ -263,48 +261,84 @@ video {
 
 /* Section 3 */
 
-.section3{
-    padding: 10vh;
+.section3 {
+  padding: 5vw;
 }
 
-.section3>div{
-    color: white;
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-    justify-content: center;
+.section3 > div {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-.section3-part1{
+.section3-part1 {
+  width: 50%;
+}
+
+.section3-part1-text1 {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: Helvetica, sans-serif;
+  padding: 5px;
+}
+.section3-part1-text2 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Helvetica, sans-serif;
+}
+
+.section3-part2 {
+  position: relative;
+  width: 50%;
+}
+
+.section3-image {
+  width: 100%;
+}
+
+.section3-video {
+  position: absolute;
+  top: 10%;
+  left: 49%;
+  width: 62%;
+  z-index: -1;
+  transform: translate(-50%);
+}
+
+/* Section 4 */
+
+.section4 {
+  padding: 5vw 5vw;
+}
+
+.section4 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.section4-part1{
     width: 50%;
 }
-
-.section3-part1-text1{
-    font-size: 48px;
-    font-weight: 900;
-    font-family: Helvetica, sans-serif;
-    padding: 5px;
-}
-.section3-part1-text2{
-    font-size: 24px;
-    font-weight: 500;
-    font-family: Helvetica, sans-serif;
-}
-
-.section3-part2{
-    position: relative;
-    width: 50%;
-}
-
-.section3-image{
+.section4-part1-image{
     width: 100%;
 }
 
-.section3-video{
-    position: absolute;
-    top: 10%;
-    left: 49%;
-    width: 62%;
-    z-index: -1;
-    transform: translate(-50%);
+.section4-part2{
+    text-align: start;
+    width: 50%;
+}
+
+.section4-part2-text1 {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: Helvetica, sans-serif;
+}
+.section4-part2-text2 {
+  font-size: 24px;
+  font-weight: 500;
 }

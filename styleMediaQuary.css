@@ -52,8 +52,12 @@
       flex-direction: column;
     }
 
-    .section3-part1 , .section3-part2{
+    .section3-part1 {
       width: 100%;
+    }
+
+    .section3-part2 {
+      width: 70%;
     }
 
     .section3-part1-text1{
