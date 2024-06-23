@@ -69,6 +69,30 @@
       text-align: center;
       font-size: 18px;
     }
+
+    /* Section 4 */
+
+    .section4>div{
+      flex-direction: column-reverse;
+    }
+
+    .section4-part1{
+      width: 90%;
+    }
+
+    .section4-part2{
+      width: 100%;
+      text-align: center;
+    }
+
+    .section4-part2-text1{
+      font-size: 32px;
+    }
+
+    .section4-part2-text2{
+      font-size: 18px;
+    }
+
   }
   
   @media screen and (max-width: 900px) {
