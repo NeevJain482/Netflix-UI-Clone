@@ -6,11 +6,11 @@
 }
 .head {
   background: url(image/backgroung.jpg) center;
-  overflow: hidden;
-  height: 90vh;
+  background-repeat: no-repeat;
+  height: 670px;
 }
 .dark {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.75);
   width: 100%;
   height: 100%;
 }
@@ -20,7 +20,7 @@
   justify-content: space-between;
   padding: 20px 5vw;
   width: 100%;
-  min-height: 5%;
+  margin-bottom: 200px;
 }
 
 .button-container {
@@ -49,7 +49,6 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 89vh;
 }
 
 .a{
@@ -57,11 +56,13 @@
     color: white;
     font-size: 48px;
     font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .b,.c{
     text-align: center;
     color: white;
     font-size: 24px;
+    font-family: Helvetica, sans-serif;
 }
 .input-btn{
     display: flex;
@@ -87,23 +88,52 @@
     color: white;
     border-radius: 7px;
 }
+span{
+    white-space:none;
+}
 
-@media screen and (max-width:959px) {
+@media screen and (max-width:959px){
     .head{
-        height: 80vh;
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-
+    .top-layout{
+        margin-bottom: 130px;
+    }
     .logo{
         height: 24px;
         width: 90px;
-    }
-    .massage{
-        height: 70vh;
     }
     .a{
         font-size: 32px;
     }
     .b,.c{
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width:599px) {
+    .head{
+        background: url(image/backgroung.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 480px;
+    }
+    .top-layout{
+        margin-bottom: 50px;
+    }
+    .input-btn{
+        flex-direction: column;
+        justify-content: center;
+        min-height: 18vh;
+    }
+    .input-email{
+        width: 90vw;
+        margin-bottom: 1rem;
+    }
+    .btn-started{
+        font-size: 18px;
+        width: 160px;
     }
 }
