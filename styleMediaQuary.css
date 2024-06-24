@@ -93,6 +93,21 @@
       font-size: 18px;
     }
 
+    /* Section 5 */
+
+    .section5-heading{
+      font-size: 32px;
+    }
+
+    .section5-li-button-span{
+      font-size: 18px;
+    }
+
+    .section5-ending-text{
+      font-size: 18px;
+    }
+
+
   }
   
   @media screen and (max-width: 900px) {
