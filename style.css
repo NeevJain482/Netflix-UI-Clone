@@ -72,7 +72,7 @@ body {
   color: white;
   font-size: 48px;
   font-weight: 900;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .b,
@@ -80,7 +80,7 @@ body {
   text-align: center;
   color: white;
   font-size: 24px;
-  font-family: Helvetica, sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .input-btn {
@@ -97,7 +97,7 @@ body {
   font-size: 18px;
   background-color: rgba(0, 0, 0, 0.5);
   border: 2px solid cyan;
-  border-radius: 7px;
+  border-radius: 5px;
 }
 
 .btn-started {
@@ -107,7 +107,7 @@ body {
   border: 2px solid red;
   background-color: red;
   color: white;
-  border-radius: 7px;
+  border-radius: 5px;
 }
 
 span {
@@ -148,13 +148,13 @@ span {
 .section1-p1 {
   font-size: 48px;
   font-weight: 900;
-  font-family: Helvetica, sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .section1-p2 {
   font-size: 24px;
   font-weight: 700;
-  font-family: Helvetica, sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .container-TV {
@@ -249,7 +249,7 @@ video {
 .section2-part2-p1 {
   font-size: 48px;
   font-weight: 900;
-  font-family: Helvetica, sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .section2-part2 {
@@ -259,7 +259,7 @@ video {
 .section2-part2-p2 {
   font-size: 24px;
   font-weight: 700;
-  font-family: Helvetica, sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 /* Section 3 */
@@ -283,13 +283,13 @@ video {
 .section3-part1-text1 {
   font-size: 48px;
   font-weight: 900;
-  font-family: Helvetica, sans-serif;
+  font-family: "Ubuntu", sans-serif;
   padding: 5px;
 }
 .section3-part1-text2 {
   font-size: 24px;
   font-weight: 500;
-  font-family: Helvetica, sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .section3-part2 {
@@ -339,9 +339,90 @@ video {
 .section4-part2-text1 {
   font-size: 48px;
   font-weight: 900;
-  font-family: Helvetica, sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 .section4-part2-text2 {
   font-size: 24px;
   font-weight: 500;
+}
+
+/* Section 5 */
+
+.section5{
+  padding:  5vw 4.5rem;
+  color: white;
+}
+
+.section5-heading{
+  font-size: 48px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.section5-ul-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul{
+  width: 100%;
+  list-style: none;
+}
+
+li>button{
+  background-color: #333;
+  border: 1px solid #333;
+  color: white;
+  position: relative;
+  display: flex;
+  margin-bottom: 10px;
+  text-align: start;
+  width: 100%;
+  font-size: 24px;
+  text-wrap: nowrap;
+}
+
+.section5-li-button-span{
+  padding: 24px;
+}
+
+.section5-li-button-span>span{
+  position: absolute;
+  top: calc(50% - 16px);
+  right: 5%;
+  font-size: 32px;
+}
+
+.section5-ending-text{
+  font-size: 20px;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  margin: 20px 0;
+  font-weight: 400;
+}
+
+.section5-input-and-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section5-input-email{
+  background-color: #181818;
+  padding: 14px;
+  font-size: 18px;
+  border: 2px solid #363636;
+  margin-right: 8px;
+  width: 30%;
+  border-radius: 5px;
+}
+
+/* Footer */
+
+footer{
+  height: 100px;
 }
